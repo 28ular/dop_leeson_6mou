@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+
+.cardUser {
+    width: 300px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.cardUser button {
+    width: 100px;
+    margin-top: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.2;
+    transition: 0.5s all ease-in-out;
+}
+
+
+
+.cardUser button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.modal {
+    width: 300px;
+    height:200px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.modal input {
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+}
+.modal button {
+
+}
+.btnClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.btnClose button {
+    width: 50px;
+
+}
+.btnC {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    opacity: 0.2;
+    transition: 0.5s all ease-in-out;
+}
+.btnC:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
